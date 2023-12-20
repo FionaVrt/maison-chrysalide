@@ -1,0 +1,42 @@
+.equipe {
+  padding: 50px;
+  background: #F0F0F0;
+}
+.equipe h2 {
+  text-align: center;
+  margin: 0;
+  color: #0357FF;
+  margin-bottom: 30px;
+}
+.equipe p {
+  text-align: center;
+  margin: 0;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+#carouselExample {
+  max-width: 300px;
+  overflow: hidden;
+  border-radius: 20px;
+  margin: auto;
+}
+
+.carousel-inner {
+  max-height: 100%;
+}
+
+.carousel-item {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}/*# sourceMappingURL=equipe.css.map */

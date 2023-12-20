@@ -1,0 +1,177 @@
+h1 {
+    text-align: center;
+    color: #FF8000;
+    margin-bottom: 50px;
+  }
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 5vw;
+    }
+  }
+  
+  .cards {
+    display: flex;
+    position: relative;
+    margin-inline: 150px;
+    margin-bottom: 100px;
+    gap: 75px;
+    justify-content: space-between;
+  }
+  @media screen and (max-width: 1100px) {
+    .cards {
+      margin-inline: 50px;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .cards {
+      margin-inline: 0;
+    }
+  }
+  .cards-quote {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    background: #F0F0F0;
+    border-radius: 20px;
+    padding: 50px 100px;
+  }
+  @media screen and (max-width: 900px) {
+    .cards-quote {
+      width: 80%;
+      margin-bottom: 50px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .cards-quote {
+      padding: 20px;
+    }
+  }
+  .cards-quote-text {
+    color: #151D53;
+    font-size: 1.2vw;
+  }
+  @media screen and (max-width: 1100px) {
+    .cards-quote-text {
+      font-size: 1.6vw;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .cards-quote-text {
+      font-size: 2vw;
+    }
+  }
+  .cards-quote-img-left {
+    width: 12%;
+    position: absolute;
+    left: -2%;
+    top: -3%;
+  }
+  .cards-quote-img-right {
+    width: 12%;
+    position: absolute;
+    right: -2%;
+    bottom: -3%;
+  }
+  .cards-reservation {
+    width: 30%;
+    height: 100%;
+    border: 1px solid #F0F0F0;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 100px;
+  }
+  @media screen and (max-width: 900px) {
+    .cards-reservation {
+      width: 80%;
+    }
+  }
+  .cards-reservation-content {
+    padding: 30px;
+    text-align: center;
+  }
+  .cards-reservation-content-title {
+    font-size: 3vw;
+    margin-block: 30px 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #FF8000;
+  }
+  @media screen and (max-width: 768px) {
+    .cards-reservation-content-title {
+      font-size: 3.5vw;
+    }
+  }
+  .cards-reservation-content-description {
+    font-size: 1.2vw;
+    color: #555;
+    margin-bottom: 60px;
+  }
+  @media screen and (max-width: 1100px) {
+    .cards-reservation-content-description {
+      font-size: 1.6vw;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .cards-reservation-content-description {
+      font-size: 2vw;
+    }
+  }
+  .cards-reservation-content-btn {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 140px;
+    border: 2px solid #FF8000;
+    padding: 10px 20px;
+    color: #FF8000;
+    letter-spacing: 5.8px;
+    transition: all 0.3s ease-in-out;
+  }
+  .cards-reservation-content-btn:hover {
+    background-color: #FF8000;
+    color: #fff;
+  }
+  
+  .immersive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ecf0f4;
+    padding: 75px 50px;
+  }
+  .immersive-title {
+    text-align: center;
+    color: #0357FF;
+    margin-bottom: 50px;
+  }
+  .immersive-text {
+    text-align: center;
+    width: 40%;
+    color: #000;
+    font-size: 1.2vw;
+    margin-bottom: 5vh;
+  }
+  @media screen and (max-width: 1100px) {
+    .immersive-text {
+      width: 70%;
+      font-size: 1.6vw;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .immersive-text {
+      width: 90%;
+      font-size: 2vw;
+    }
+  }
+  
